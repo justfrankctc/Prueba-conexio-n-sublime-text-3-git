@@ -1,0 +1,22 @@
+Hi
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/index.html b/index.html
+index cf148ca..464f074 100644
+--- a/index.html
++++ b/index.html
+@@ -14,8 +14,9 @@
+ 		<h2> $Product Price </h2>
+ 		<p> Product Description </p> -->
+ 		<h1> {{store.product.name}} </h1>
+-		<h2> $ {{store.product.price | currency}} </h2>
++		<!-- <h2> $ {{store.product.price | currency}} </h2> -->
+ 		<p> {{store.product.description}} </p>
++		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit odit sunt voluptatum sint quo fugiat perspiciatis labore sed nulla, itaque nisi hic autem alias facilis esse, corrupti impedit, ratione, sapiente.	
+ 	</div>
+ </body>
+ </html>
+\ No newline at end of file
